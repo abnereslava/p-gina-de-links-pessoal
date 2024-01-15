@@ -1,0 +1,42 @@
+.nome {
+    font-family: Arial;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    border-radius: 50%;
+    border: solid 1px; 
+    border-color: white;
+}
+
+body {
+    text-align: center;
+    color: white;
+    margin: 0 0 0 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(162, 187, 255), rgb(124, 91, 185), rgb(55, 55, 55));
+}
+
+header {
+    color: rgb(55, 55, 55);
+    border: solid 10px;
+}
+
+button {
+    background-color: white;
+    border: 0px rgb(124, 91, 185);
+    color: rgb(92, 63, 145);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px
+}
+
+button:active {
+    background-color: rgb(124, 91, 185);
+}
+
+button:hover {
+    cursor:pointer;
+}
